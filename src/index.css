@@ -1,0 +1,488 @@
+/* YourComponent.css */
+
+.text{
+  color: #6290ff;
+  font-size: 3rem;
+}
+.name{
+  font-size: 8rem ;
+  color: #6a2f8f;
+}
+
+.text-section{
+  /* width: 50%; */
+  padding: 0 5rem;
+}
+.text-runner{
+  overflow: hidden;
+}
+.runner{
+  font-size: 9rem;
+  color:#6a2f8f;
+}
+.button-group{
+  display: flex;
+}
+.button-outer2{
+  margin: 0px 26px;
+}
+.button-outer1{
+  margin: 0px 46px;
+}
+
+
+
+.nav-link {
+  color: #6290ff;
+  margin: 0 15px;
+  font-size: 28px;
+}
+.nav-link:hover {
+  background: #1fc3ff;
+  background: linear-gradient(to right, #1fc3ff 0%, #e605ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.active {
+  border-bottom: 3px solid #1fc3ff;
+  background: #1fc3ff;
+  background: linear-gradient(to right, #1fc3ff 0%, #e605ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar-brand {
+  font-size: 38px;
+  margin: 0 10%;
+  font-weight: 500;
+  background: #38CF98;
+background: linear-gradient(to right, #38CF98 22%, #AF24FF 68%, #CF46C6 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#header {
+  width: 100%;
+  margin-top: 90px;
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 500;
+  color: #6290ff;
+}
+#header .brand-name {
+  background: #E06DED;
+  background: radial-gradient(circle farthest-corner at center center, #E06DED 0%, #24D3FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+#header .btn-get-started {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+#header .btn-get-started:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-setting{
+position: absolute;
+left: 47.6rem;
+top: 3rem;
+}
+.responsive {
+  width: 100%;
+  /* height: 550px; */
+  /* width: 93.5%; */
+    height: auto;
+margin-top: -6rem;
+  background-size: cover;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.responsive2{
+  width: 93.5%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .image-setting{
+    position: inherit;
+  }
+  .responsive2{
+    width: 204%;
+    height: auto;
+  }
+  .runner{
+    font-size: 45px;
+    color:#6a2f8f;
+  }
+  .name{
+    font-size: 5rem;
+  }
+  .image-setting{
+position: absolute;
+top: 3rem;
+overflow: hidden;
+left: 0;
+  }
+  .navbar {
+    z-index: 999;
+  }
+  .button-group {
+    display: flex;
+    position: absolute;
+    bottom: 2rem;
+    left: -3rem;
+}
+}
+.position {
+  background: #ef0fff;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #ef0fff 0%,
+    #24ffbd 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.tab{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+color: black;
+}
+
+
+/*  */
+.checkbox-wrapper-49 input[type="checkbox"] {
+  display: none;
+  visibility: hidden;
+}
+
+.checkbox-wrapper-49 {
+  --size: 90px;
+}
+
+.checkbox-wrapper-49 .block {
+  position: relative;
+  clear: both;
+  float: left;
+}
+
+.checkbox-wrapper-49 label {
+  width: var(--size);
+  height: calc(var(--size) / 2);
+  box-sizing: border-box;
+  border: 3px solid;
+  float: left;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  transition: .3s ease;
+  color: black;
+}
+.checkbox-wrapper-49 input[type=checkbox]:checked + label {
+  background: #55e868;
+}
+.checkbox-wrapper-49 input[type=checkbox]:checked + label:before {
+  left: calc(var(--size) / 2);
+}
+.checkbox-wrapper-49 label:before {
+  transition: .3s ease;
+  content: '';
+  width: calc((var(--size) / 2) - 10px);
+  height: calc((var(--size) / 2) - 10px);
+  position: absolute;
+  background: white;
+  left: 2px;
+  top: 2px;
+  box-sizing: border-box;
+  border: 3px solid;
+  color: black;
+  border-radius: 100px;
+}
+/*  */
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+.text-center, .form-label{
+  color: #6290ff;
+}
+::selection{
+  text-shadow: 1px 1px 0 #282b29;
+}
+.progress{
+  margin-bottom: 3%;
+  text-align:center;
+  height: 4px;
+}
+.foot{
+  color: black;
+}
+.image{
+  background-image: url(src/assets/Images/faq.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 50px;
+  min-width: 0;
+  outline: none;
+  margin: 0 15px;
+  padding: 12px 23px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 0 15px;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 50px;
+  min-width: 0;
+  outline: none;
+  padding: 12px 23px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
